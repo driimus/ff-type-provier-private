@@ -22,6 +22,7 @@ jobs:
 
       - name: Install
         run: |
+          npm i -g npm
           npm install
 
       - name: Install PeerDeps
